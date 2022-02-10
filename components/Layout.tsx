@@ -82,9 +82,17 @@ export const Layout = ({ settings, header, children, isHome, sticky, previewPost
                   Twitter
                 </a>
               )}
+              {/* Custom theme from 
               <a href="https://www.jamify.org" target="_blank" rel="noopener noreferrer">
+                Gautier Arcin 
+              </a>,
+              based on a theme of 
+              <a href="https://www.jamify.org" target="_blank" rel="noopener noreferrer">
+                Gautier Arcin 
+              </a>, */}
+              {/* <a href="https://www.jamify.org" target="_blank" rel="noopener noreferrer">
                 Jamify
-              </a>
+              </a> */}
             </nav>
           </div>
         </footer>

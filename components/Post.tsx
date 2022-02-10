@@ -152,7 +152,7 @@ export const Post = ({ cmsData }: PostProps) => {
                   </div>
                 </section>
 
-                {memberSubscriptions && <Subscribe {...{ settings }} />}
+                {/* {memberSubscriptions && <Subscribe {...{ settings }} />} */}
 
                 {commenting.system === 'commento' && <CommentoComments {...{ id: post.id, url: commenting.commentoUrl }} />}
 
